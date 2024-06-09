@@ -1,0 +1,59 @@
+.header{
+    width: 100%; 
+    height: 80px;
+    background-color: coral; 
+    display: flex; 
+    align-items: center;
+}
+
+.link_header{
+    margin-right: 15px;
+    font-size: 18px;
+    color: black;
+}
+
+.footer{
+    background-color: coral; 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    width: 100%;
+    margin-top: 15px;
+}
+
+.h3_footer{
+    font-size: 25px;
+}
+
+.footer ul li{
+    margin-bottom: 5px;
+}
+
+.footer ul li a{
+    color: black;
+}
+
+.nombre_marca{
+    margin-left: auto; 
+    margin-right: 20px; 
+    font-size: 32px; 
+    font-weight: 600;
+}
+
+.tabla_registro{
+    border: 1px solid #000000; 
+    border-collapse: separate; 
+    width: 226px; 
+    margin: 0 auto;
+}
+
+
+.celda_tabla_registro{
+    text-align: center;
+    border: 1px solid #000000;
+    padding: 8px;
+}
+
+.link_header:hover, .footer ul li a:hover{
+    color: white;
+}

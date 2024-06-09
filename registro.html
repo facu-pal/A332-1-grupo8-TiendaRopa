@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="img/IconoWeb.ico">
+        <link rel="stylesheet" type="text/css" href="/style/estilos.css">
+        <title>Registrarse</title>
+
+    </head>
+    <body  style="margin: 0px; min-height: 100vh; display: flex; flex-direction: column;">
+
+        <header class="header">
+            <div>
+            <a href="index.html">
+                <img src="./img/LogoHeader.png" width="50px" style="padding-left: 20px;">
+            </a>
+            </div>
+    
+            <nav style="margin-left: 30px">
+                <a class="link_header" href="index.html">Home</a>
+                <a class="link_header" href="index.html#productos">Productos</a>
+                <a class="link_header" href="contacto.html">Contacto</a>
+                <a class="link_header" href="about.html">Acerca de Nosotros</a>
+                <a class="link_header" href="registro.html">Registrarse</a>
+            </nav>
+    
+            <p class="nombre_marca">BlazeBoard</p>
+        </header>
+
+        <main style="background-image: url(img/fondo44.jpg); background-size: 100% 100%; background-repeat: no-repeat;background-attachment: fixed; text-align: center;">
+                <h2>Formulario de registro</h2>
+                <form action="show_data.html" target="_blank" style="border: 2px solid black; padding: 20px; margin-left: 700px; margin-right: 700px;  ">
+                    <label for="nombre">Nombre:</label><input type="text" name="nombre" placeholder="Ingrese su nombre"><br><br>
+                    <label for="apellido">Apellido:</label><input type="text" name="apellido" placeholder="Ingrese su apellido"><br><br>
+                    <label for="direcion">Direcion:</label><input type="text" name="direcion" placeholder="Ingrese su direcion"><br><br>
+                    <label for="codigo_postal">Codigo postal:</label><input type="number" name="codigo_postal" placeholder="Ingrese su codigo postal"><br><br>
+                    <label for="fecha_nacimiento">Fecha de nacimiento(dd/mm/aaaa):</label><input type="date" name="fecha_nacimiento" placeholder="(dd/mm/aaaa)"><br><br>
+                    <p>Genero: 
+                        <input type="radio" name="genero" value="hombre">Hombre
+                        <input type="radio" name="genero" value="Mujer">Mujer
+                        <input type="radio" name="genero" value="Otro">Otro
+                    </p>
+                    <input type="submit" value="enviar">
+                </form>
+                <p>Si usted le da enviar, la informacion va a la pagina "show_data.html"</p>
+        </main>
+
+        <footer class="footer" style="margin-top: auto;">
+            <div style="padding-left: 20px;">
+                <h3 class="h3_footer">Nosotros</h3>
+                <ul style="list-style-type: none; padding: 0;">
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="about.html">Acerca de nosotros</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="h3_footer">Marcas</h3>
+                <ul style="list-style-type: none; padding: 0;">
+                    <li>Vans</li>
+                    <li>DC</li>
+                    <li>Circa</li>
+                    <li>Santa Cruz</li>
+                </ul>
+            </div>
+            <div >
+                <h3 class="h3_footer">Políticas/Condiciones</h3>
+                <ul style="list-style-type: none; padding: 0;">
+                    <li><a href="preguntasFrecuentes.html">Preguntas Frecuentes</a></li>
+                    <li><a href="basesCondicion.html">Bases y Condiciones</a></li>
+                </ul>
+            </div>
+    
+            <div style="margin-right: 20px;">
+                <h3 class="h3_footer">Redes sociales</h3>
+                <ul style="list-style-type: none; padding: 0;">
+                    <li style="display: inline-block; margin-right: 10px;">
+                    <a href="https://www.instagram.com/"><img src="./img/LogoInstagram.png" width="40px"></a>
+                    </li>
+                    <li style="display: inline-block; margin-right: 10px;">
+                    <a href="https://www.whatsapp.com/"><img src="./img/LogoWhatsapp.png" width="40px"></a>
+                    </li>
+                    <li style="display: inline-block;">
+                    <a href="https://twitter.com/"><img src="./img/LogoX.png" width="40px"></a>
+                    </li>
+                </ul>
+            </div>
+            <div style="flex-basis: 100%;">
+                <p style="text-align: center;">Derechos reservados 2025 &copy;</p>
+            </div>
+        </footer>
+
+    </body>
+</html>
