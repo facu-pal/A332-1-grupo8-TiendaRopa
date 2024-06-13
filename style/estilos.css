@@ -57,3 +57,62 @@
 .link_header:hover, .footer ul li a:hover{
     color: white;
 }
+
+/* SECCION CONTACTO */
+.auto-container{
+    position:static;
+    max-width:1200px;
+    padding:0px 15px;
+    margin:0 auto;
+    width: 100%;
+}
+
+.titleSucursales{
+    font-weight: bold; 
+    color: #565872;
+    margin: 20px 0px 10px 0px;
+    font-size:26px;
+    text-align: center;
+    color: #212529;
+}
+
+.contenedorSucursales{
+    padding: 30px;
+}
+
+.imagenSucursal{
+    max-width: 100%;
+    width: 1900px;
+}
+
+.linkSucursales{
+    color: #212529;
+    text-decoration: none;
+}
+
+.linkSucursales:hover{
+    color: coral
+}
+
+.contenedorTituloSucursales{
+    width:100%; 
+    text-align:center;
+}
+
+.contactoSucursales{
+    display:flex;
+}
+
+.parrafoSucursales{
+    padding-top:10px;
+}
+
+/************/
+/*RESPONSIVE*/
+/************/
+
+@media all and (max-width: 767px){
+    .contactoSucursales{
+        flex-direction: column;
+    }
+}
