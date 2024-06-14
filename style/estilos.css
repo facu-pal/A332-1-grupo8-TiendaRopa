@@ -58,22 +58,30 @@
     color: white;
 }
 
+.centrado{
+    text-align: center;
+}
+
 /* SECCION CONTACTO */
-.auto-container{
-    position:static;
-    max-width:1200px;
-    padding:0px 15px;
-    margin:0 auto;
+
+.contenedorContacto{
+    position: static;
+    max-width: 1200px;
+    padding: 0px 15px;
+    margin: 0 auto;
     width: 100%;
 }
 
-.titleSucursales{
-    font-weight: bold; 
-    color: #565872;
+.tituloSucursalesH2{
+    margin-top: 40px;
+    font-weight: 700;
+}
+
+.tituloSucursales{
+    font-weight: 700;
     margin: 20px 0px 10px 0px;
-    font-size:26px;
+    font-size: 25px;
     text-align: center;
-    color: #212529;
 }
 
 .contenedorSucursales{
@@ -86,7 +94,7 @@
 }
 
 .linkSucursales{
-    color: #212529;
+    color: #000000;
     text-decoration: none;
 }
 
@@ -104,13 +112,86 @@
 }
 
 .parrafoSucursales{
-    padding-top:10px;
+    padding-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.seccionContacto{
+    position: relative;
+    background: #fdf4f4;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+  
+.seccionContacto .tituloContacto h1{
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.seccionContacto .formInterior .formGrupo{
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.seccionContacto .formInterior .formGrupo input[type='text'],
+.seccionContacto .formInterior .formGrupo input[type='email'],
+.seccionContacto .formInterior .formGrupo input[type='date'],
+.seccionContacto .formInterior .formGrupo input[type='file'],
+.seccionContacto .formInterior .formGrupo select,
+.seccionContacto .formInterior .formGrupo textarea{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 60px;
+    background: #ffffff;
+    border: 2px solid #ededed;
+    padding: 10px 50px 10px 20px;
+    font-size: 16px;
+    color: #565872;
+    transition: all 500ms ease;
+}
+
+.seccionContacto .formInterior .formGrupo textarea{
+    height: 180px;
+    resize: none;
+}
+
+.seccionContacto .formInterior .formGrupo i{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #244a6a;
+    z-index: 1;
+}
+
+.mensajeBoton{
+    margin-top: 30px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+}
+
+.botonForm{
+    padding: 12px 45px;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 700;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    transition: all 500ms ease; /*Transicion para que cuando se habra la pagina se agranden*/
+    background: #ff7f50;
+}
+
+.botonForm:hover{
+    background: #000000;
 }
 
 /************/
 /*RESPONSIVE*/
 /************/
 
+/* Ajusta la seccion de imagenes de sucursales para que se adapte a distintas resoluciones */
 @media all and (max-width: 767px){
     .contactoSucursales{
         flex-direction: column;
