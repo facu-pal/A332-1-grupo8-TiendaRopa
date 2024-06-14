@@ -138,6 +138,7 @@
 .seccionContacto .formInterior .formGrupo input[type='email'],
 .seccionContacto .formInterior .formGrupo input[type='date'],
 .seccionContacto .formInterior .formGrupo input[type='file'],
+.seccionContacto .formInterior .formGrupo input[type='password'],
 .seccionContacto .formInterior .formGrupo select,
 .seccionContacto .formInterior .formGrupo textarea{
     position: relative;
