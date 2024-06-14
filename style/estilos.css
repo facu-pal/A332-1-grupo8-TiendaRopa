@@ -116,3 +116,12 @@
         flex-direction: column;
     }
 }
+
+.Titulo{
+    padding-left: 20PX;
+
+}
+
+.btn-favorito:hover i {
+    color: rgb(225, 225, 54);
+}
