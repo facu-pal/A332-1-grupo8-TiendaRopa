@@ -204,8 +204,34 @@
 
 }
 
-.btn-favorito:hover i{
+.btn-favorito:hover i {
     color: rgb(225, 225, 54);
-    
+
 }
 
+.custom-card-height {
+   
+    height: 300px; /* Ajusta este valor según tus necesidades */
+    
+  }
+  
+
+  .card-img-overlay {
+    color: white; /* Asegura que el texto sea blanco */
+    background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mejor legibilidad */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+  .card-img-overlay h5,
+  .card-img-overlay a {
+    margin: 5px 0;
+  }
+ 
