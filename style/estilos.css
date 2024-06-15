@@ -205,7 +205,7 @@
 }
 
 .btn-favorito:hover i {
-    color: rgb(225, 225, 54);
+    color: rgb(255, 255, 37);
 
 }
 
@@ -238,3 +238,24 @@
   .cuerpo{
     background-color: #EEEBDD;
   }
+
+  .card_mod{
+    background-color: #EEEBDD;
+    background: linear-gradient(145deg, #d6d4c7, #fffbec);
+    box-shadow:  28px 28px 44px #cac8bc,
+                 -28px -28px 44px #fffffe;
+  }
+
+  .botonAgregar{
+    padding: 12px 45px;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 700;
+    color: #ffffff !important;
+    border-radius: 5px;
+    border: none;
+    transition: all 500ms ease; /*Transicion para que cuando se habra la pagina se agranden*/
+    background: #CE1212 !important;
+    width: 500px;
+
+}
