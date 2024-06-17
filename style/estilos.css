@@ -198,6 +198,14 @@ header {
 .imagen-2-derecha{
     position: relative;
 }
+  .card-img-overlay h5,
+  .card-img-overlay a {
+    margin: 5px 0;
+  }
+ 
+  .custom-body-producto{
+    background-color: #EEEBDD;
+  }
 
 .imagen-1-derecha img {
     width: 280px;
