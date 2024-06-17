@@ -34,7 +34,7 @@
 }
 
 .linkSucursales:hover{
-    color: coral
+    color: var(--text-color) 
 }
 
 .contenedorTituloSucursales{
@@ -496,9 +496,45 @@ header {
 
 }
 
+/*FAQ y Bases*/
 
+.main-faq, .main-bases{
+    display: block;
+    padding: 1%;
+    padding-top: 100px;
+    background-color: #eeebdd;
+    color: var(--text-color);
+    font-family:Lato,sans-serif;
+    text-align: justify;
+    font-size: 14px;
+}
 
+.main-bases{
+    color: var(--bg-color);
+}
 
+.accordion .accordion-button {
+    background-color: var(--main-color); 
+    color: white; 
+}
+
+.accordion .accordion-button:not(.collapsed) {
+    background-color: var(--bg-color);
+}
+
+.accordion .accordion-body {
+    text-align: justify; 
+    font-size: 14px;    
+    background-color: #262626;
+    color: #eeebdd;
+}
+
+/*Contacto*/
+
+.main-registro {
+    background-color: #eeebdd; 
+    text-align: center;
+}
 
 /*Footer*/
 
