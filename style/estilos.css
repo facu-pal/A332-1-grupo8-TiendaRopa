@@ -116,7 +116,7 @@
     border-radius: 5px;
     border: none;
     transition: all 500ms ease; /*Transicion para que cuando se habra la pagina se agranden*/
-    background: #ff7f50;
+    background: var(--text-color);
 }
 
 .botonForm:hover{
@@ -132,6 +132,11 @@
     .contactoSucursales{
         flex-direction: column;
     }
+}
+
+.custom-main
+{
+    padding-top: 80px;
 }
 
 .Titulo{
