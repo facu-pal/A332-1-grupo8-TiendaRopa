@@ -139,6 +139,7 @@
     padding-top: 80px;
 }
 
+
 .Titulo{
     padding-left: 20PX;
 
@@ -318,7 +319,7 @@ header {
         top: 100%;
         right: 0%;
         width: 270px;
-        height: 35vh;
+        height: 55vh;
         background: var(--main-color);
         display: flex;
         flex-direction: column;
@@ -514,7 +515,7 @@ header {
 }
 
 .accordion .accordion-button {
-    background-color: var(--main-color); 
+    background-color: #ae4c4c; 
     color: white; 
 }
 
@@ -525,8 +526,8 @@ header {
 .accordion .accordion-body {
     text-align: justify; 
     font-size: 14px;    
-    background-color: #262626;
-    color: #eeebdd;
+    background-color: #dfaaaa;
+    color: #000000;
 }
 
 /*Contacto*/
@@ -626,4 +627,62 @@ header {
         margin-right :0.5rem !important;
         margin-left :0.5rem!important;
     }
+}
+
+
+/* Login */
+.custom-main-login
+{
+    background-color: #eeebdd; 
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.seccionLogin{
+    position: relative;
+    background: #eeebdd;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+  
+.seccionLogin .tituloLogin h1{
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.seccionLogin .formInteriorLogin .formGrupo{
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.seccionLogin .formInteriorLogin .formGrupoLogin input[type='email'],
+.seccionLogin .formInteriorLogin .formGrupoLogin input[type='password'],
+.seccionLogin .formInteriorLogin .formGrupoLogin select,
+.seccionLogin .formInteriorLogin .formGrupoLogin textarea{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 60px;
+    background: #ffffff;
+    border: 2px solid #ededed;
+    padding: 10px 50px 10px 20px;
+    font-size: 16px;
+    
+    transition: all 500ms ease;
+    margin-top: 15px; /*palmieri*/
+    margin-bottom: 15px;
+}
+
+.seccionLogin .formInteriorLogin .formGrupoLogin textarea{
+    height: 180px;
+    resize: none;
+}
+
+.seccionLogin .formInteriorLogin .formGrupoLogin i{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    
+    z-index: 1;
 }

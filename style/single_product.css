@@ -1,0 +1,12 @@
+.seccion-producto{
+    padding-top: 10rem;
+}
+
+#product-cantidad{
+    max-width: 5rem;
+}
+
+.product-boton{
+    height: 40px;
+    width: 145px;
+}
