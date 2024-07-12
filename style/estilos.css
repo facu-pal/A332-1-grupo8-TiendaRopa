@@ -313,15 +313,13 @@ header {
         margin-left: 30px;
         margin-right: 10px;
     }
-
     .navbar {
         position: absolute !important;
         top: 100%;
-        right: 0%;
+        display: none !important;
         width: 270px;
         height: 55vh;
         background: var(--main-color);
-        display: flex;
         flex-direction: column;
         justify-content: flex-start;
         border-radius: 10px;
@@ -344,6 +342,11 @@ header {
     .navbar a.active {
         color: var(--text-color);
         background: var(--main-color);
+    }
+
+    .navbar.open{
+        right: 2%;
+        display: flex !important;
     }
 
 
@@ -668,7 +671,6 @@ header {
     border: 2px solid #ededed;
     padding: 10px 50px 10px 20px;
     font-size: 16px;
-    
     transition: all 500ms ease;
     margin-top: 15px; /*palmieri*/
     margin-bottom: 15px;
@@ -685,4 +687,80 @@ header {
     right: 20px;
     
     z-index: 1;
+}
+
+
+.seccion-imagenes-Vendidos {
+    margin-top: 20px;
+}
+
+
+.seccion-imagenes-Vendidos .imagenes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 3%;
+}
+
+.seccion-imagenes-Vendidos .imagenArticulosMasVendidos {
+    margin-left: 100px;
+    max-width: 300px;
+    height: auto;
+}
+
+
+.tituloH2{
+    font-size: 2.5rem;
+}
+
+
+
+/* ------------------------------------------------------------------------------ */
+
+
+.seccion-skate {
+    background-color:#EEEBDD;
+}
+
+/* Imagen */
+.imagen-skate-contenedor {
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+    text-align: center;
+}
+
+.imagen-skate {
+    filter: none; 
+  transition: filter 0.5s; 
+    max-width: 55% !important; 
+    height: auto;
+}
+
+.imagen-skate:hover{
+    filter: brightness(0.3); 
+}
+
+.contenido-texto h2{
+    font-family: Lato,sans-serif;
+    font-size: 30px;
+}
+
+.contenido-texto p{
+    font-family: Lato,sans-serif;
+    font-size: 16px;
+}
+
+.boton-Unirse{
+    background-color: #FF0000 !important;
+    color: #FFFFFF !important;
+    border: none !important;
+    width: 200px;
+    height: 50px;
+    font-size: 15px !important;
+}
+
+.card_mod_index{
+    background-color: #EEEBDD !important;
+    border: none !important;
 }
