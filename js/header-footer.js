@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
         </ul>
         <div class="custon-div-header m-0 ">
             <a>BLAZEBOARD</a>
-            <a href="#" class="car text-decoration-none"><i class="ri-shopping-cart-fill float-end"></i></a>
+            <a href="carrito.html" class="car text-decoration-none"><i class="ri-shopping-cart-fill float-end"></i></a>
             <div class="bx bx-menu" id="menu-icon-header"></div>
         </div>
 
