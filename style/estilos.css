@@ -764,3 +764,14 @@ header {
     background-color: #EEEBDD !important;
     border: none !important;
 }
+
+
+
+/* -------Carrito----- */
+.custom-main-carrito
+{
+    background-color: #eeebdd; 
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
